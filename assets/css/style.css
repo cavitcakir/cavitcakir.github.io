@@ -113,6 +113,8 @@ form.signup input[type=email]  {
 }
 form.signup button.btn {
 	font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  color: #444;
 }
 form.signup input.form-control:focus {
 	border-color: #fd680e;

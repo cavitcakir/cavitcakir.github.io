@@ -4,15 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="title" content="ScoopThemes">
-    <meta name="ROBOTS" content="Bootstrap 3 Themes, Responsive Themes, Bootstrap 3 Responsive, Wordpress Themes, Clean Themes, Modern Themes, Flat Themes, Flat UI, UI Design, UX Design, Web design, responsive bootstrap, Jquery Plugins, Free Plugins, Premium Bootstrap themes, Bootstrap 3, Premium Web Templates, Bootstrap Templates, Bootstrap Responsive Templates, Admin, Dashboard, Admin Templates, Admin Responsive, Admin responsive themes">
+    <!-- <meta name="title" content="ScoopThemes"> -->
+    <!-- <meta name="ROBOTS" content="Bootstrap 3 Themes, Responsive Themes, Bootstrap 3 Responsive, Wordpress Themes, Clean Themes, Modern Themes, Flat Themes, Flat UI, UI Design, UX Design, Web design, responsive bootstrap, Jquery Plugins, Free Plugins, Premium Bootstrap themes, Bootstrap 3, Premium Web Templates, Bootstrap Templates, Bootstrap Responsive Templates, Admin, Dashboard, Admin Templates, Admin Responsive, Admin responsive themes">
     <meta name="description" content="Solutions For Web Developers Form ( Web Templates, Web Themes, Jquery Plugins, UX Design.. ) Whatever They Need.">
     <meta name="abstract" content="Solutions For Web Developers Form ( Web Templates, Web Themes, Jquery Plugins, UX Design.. ) Whatever They Need.">
    
     <meta name="author" content="www.scoopthemes.com">
     <meta name="publisher" content="www.scoopthemes.com">
     <meta name="copyright" content="www.scoopthemes.com">
-    <meta name="revisit-after" content="2 days">
+    <meta name="revisit-after" content="2 days"> -->
     <link rel="shortcut icon" href="assets/img/logo.png">
 
     <title>Cavit Çakır</title>
@@ -61,22 +61,22 @@
                     <h1>Cavit Çakır</h1>
                     <h2>My website is coming soon.</h2>
                     <br/>
-                    <form class="form-inline validate signup" action="http://scoopthemes.us8.list-manage.com/subscribe/post-json?u=c535e62cabdc2bfeb87bff6de&amp;id=d969b07f82&c=?" method="get" role="form">
+                    <!-- <form class="form-inline validate signup" action="http://scoopthemes.us8.list-manage.com/subscribe/post-json?u=c535e62cabdc2bfeb87bff6de&amp;id=d969b07f82&c=?" method="get" role="form">
                         <div class="form-group">
                             <input type="email" class="form-control" name="EMAIL" id="exampleInputEmail1" placeholder="Enter your email address">
                         </div>
                         <input type="submit" name="subscribe" value="Get notified!" class="btn btn-theme">
-                    </form>
+                    </form> -->
+                    <a href="cavitcakir_CV.pdf" <i class="btn btn-theme" ></i>My Resume</a>
                 </div>
                 <div class="col-sm-12 align-center">
+                    <br/>
                     <ul class="social-network social-circle">
-                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://www.instagram.com/cavitcakirrr/" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a>
                         </li>
-                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <li><a href="https://github.com/cavitcakir" class="icoGit" title="Github"><i class="fa fa-github"></i></a>
                         </li>
-                        <li><a href="#" class="icoGit" title="Github"><i class="fa fa-github"></i></a>
-                        </li>
-                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://www.linkedin.com/in/cavitcakir/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -112,32 +112,32 @@ $(document).ready( function () {
     }
 });
 
-function appendResult(userText , className, iconClass){
-  var resultHTML = "<div class='stretchLeft result "+ className + "'>" + userText + " <span class='fa fa-" + iconClass + "'></span>" + "</div>";
-  $('body').append(resultHTML);
-  $('.result').delay(10000).fadeOut('1000');
-}
+// function appendResult(userText , className, iconClass){
+//   var resultHTML = "<div class='stretchLeft result "+ className + "'>" + userText + " <span class='fa fa-" + iconClass + "'></span>" + "</div>";
+//   $('body').append(resultHTML);
+//   $('.result').delay(10000).fadeOut('1000');
+// }
 
 
-function register($form) {
-    $.ajax({
-        type: $form.attr('method'),
-        url: $form.attr('action'),
-        data: $form.serialize(),
-        cache       : false,
-        dataType    : 'json',
-        contentType: "application/json; charset=utf-8",
-        error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
-        success     : function(data) {
-            if (data.result != "success") {
-                appendResult('Wrong Email Or You Are Already Registered, Try Again', 'error', 'exclamation');
-            } else {
-                // It worked, carry on...
-                appendResult('Successful, Check Your Email For Confirmation ', 'success', 'check');
-            }
-        }
-    });
-}
+// function register($form) {
+//     $.ajax({
+//         type: $form.attr('method'),
+//         url: $form.attr('action'),
+//         data: $form.serialize(),
+//         cache       : false,
+//         dataType    : 'json',
+//         contentType: "application/json; charset=utf-8",
+//         error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+//         success     : function(data) {
+//             if (data.result != "success") {
+//                 appendResult('Wrong Email Or You Are Already Registered, Try Again', 'error', 'exclamation');
+//             } else {
+//                 // It worked, carry on...
+//                 appendResult('Successful, Check Your Email For Confirmation ', 'success', 'check');
+//             }
+//         }
+//     });
+// }
     </script>
 
 </body>
