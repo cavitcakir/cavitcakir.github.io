@@ -22,6 +22,11 @@ h1 {
 	font-size: 40px;
 }
 
+h2 {
+	font-size: 30px;
+  font-weight: 500;
+}
+
 h3 {
 	font-weight: 400;
 }
@@ -99,11 +104,15 @@ a:after {
   color: #fff;
   background-color: #4F92AF;
   border-color: #4F92AF;
+  font-size: 18px;
+  border-radius: 20px;
 }
 .btn-theme:hover  {
   color: #fff;
   background-color: #444;
   border-color: #444;
+  font-size: 18px;
+  border-radius: 20px;
 }
 form.signup input[type=email]  {
 	height: 42px;
@@ -112,7 +121,7 @@ form.signup input[type=email]  {
 	border: none;
 }
 form.signup button.btn {
-	font-weight: 700;
+	font-weight: 100;
   font-family: 'Lato', sans-serif;
   color: #444;
 }
@@ -151,9 +160,9 @@ form.signup input.form-control:focus {
 	margin-top: 60px;
 	margin-bottom: 40px;
 	color: #fff;
-	font-size: 45px;
+	font-size: 100px;
 	font-weight: 900;
-	letter-spacing: -1px;
+	/* letter-spacing: -1px; */
 }
 
 h2.subtitle {
