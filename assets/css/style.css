@@ -244,6 +244,13 @@ p.copyright {
   margin-right: 5px;
 }
 
+.spotify {
+  width: 25px;
+  height: 25px;
+  background-size: 100px 82px;
+  margin-bottom: 5px;
+}
+
 
 @media only screen 
 and (min-device-width : 320px) 
