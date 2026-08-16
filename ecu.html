@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Message Revealer</title>
+<style>
+    /* Some basic styling for demonstration purposes */
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #message {
+        display: none; /* Initially hidden */
+        margin-top: 20px;
+        font-size: 20px;
+    }
+</style>
+</head>
+<body>
+
+<button id="revealButton">Click to Reveal Message</button>
+<div id="message">Zom gel</div>
+
+<script>
+    // JavaScript to handle the button click event and reveal the message
+    document.getElementById("revealButton").addEventListener("click", function() {
+        var messageDiv = document.getElementById("message");
+        if (messageDiv.style.display === "none") {
+            messageDiv.style.display = "block";
+        } else {
+            messageDiv.style.display = "none";
+        }
+    });
+</script>
+
+</body>
+</html>
